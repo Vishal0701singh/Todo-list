@@ -1,0 +1,107 @@
+#mainbox {
+   
+    display: flex;
+    justify-content: center;
+
+  
+
+}
+body{
+
+    background-image: url(img/todo.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+.container {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+  
+
+}
+
+.box {
+    width: 400px;
+    height: 500px;
+    /* background-color: rgb(245, 115, 223); */
+    text-align: center;
+    border-radius: 10px;
+ 
+}
+H1{
+    margin: 5px;
+}
+#inpt {
+    height: 45px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+#btn {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+}
+#btn:hover{
+    background-color: rgb(114, 117, 114);
+}
+
+.mainStyle {
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    height: 40px;
+    background-color: rgb(158, 67, 234);
+    color: white;
+}
+
+.text {
+    border: none;
+    border-radius: 20px;
+    margin-left: 10px;
+    background-color:rgb(158, 67, 234);
+    color: white;
+    height: 38px;
+   
+
+}
+.text:focus{
+    outline: none;
+}
+.Edit {
+    background-color: white;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+
+.Edit:hover{
+    background-color:rgb(129, 233, 131);
+}
+
+.Delete {
+    background-color: white;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.Delete:hover{
+    color: white;
+    background-color: rgb(241, 84, 84);
+}
+.childMain1{
+    height: 40px;
+}
+.text1{
+   border-radius: 50%;
+   background-color: black;
+}
